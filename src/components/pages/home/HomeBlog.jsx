@@ -12,7 +12,7 @@ function HomeBlog() {
             <div className="blogs">
                 <div className="blog">
                     <div className="blog-img">
-                        <img src="/public/bg2.jpg" alt="blog" />
+                        <img src="/bg2.jpg" alt="blog" />
                     </div>
                     <div className="blog-data">
                         <p className="date">26 Nov</p>
@@ -22,7 +22,7 @@ function HomeBlog() {
                 </div>
                 <div className="blog">
                     <div className="blog-img">
-                        <img src="/public/blog/blog1.jpg" alt="blog" />
+                        <img src="/blog/blog1.jpg" alt="blog" />
                     </div>
                     <div className="blog-data">
                         <p className="date">20 Nov</p>
@@ -32,7 +32,7 @@ function HomeBlog() {
                 </div>
                 <div className="blog">
                     <div className="blog-img">
-                        <img src="/public/blog/blog2.jpg" alt="blog" />
+                        <img src="/blog/blog2.jpg" alt="blog" />
                     </div>
                     <div className="blog-data">
                         <p className="date">16 Nov</p>
