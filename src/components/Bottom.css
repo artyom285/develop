@@ -1,0 +1,21 @@
+.Bottom {
+    color: white;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    gap: 15px;
+    height: 100px;
+    width: 100%;
+    bottom: 0%;
+    padding: 0px 120px;
+    z-index: 1;
+}
+
+.Bottom i {
+    display: flex;
+    font-size: 26px;
+}
+

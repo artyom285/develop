@@ -1,0 +1,62 @@
+.HomeCenter {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    z-index: 1;
+    margin: 150px 120px;
+}
+
+.sub-heading {
+    font-size: 20px;
+}
+
+.heading {
+    font-weight: 700;
+    font-size: 4em;
+    line-height: 1.2em;
+    margin: 25px 0px 50px 0px;
+}
+
+.link {
+    background-color: black;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: fit-content;
+    gap: 15px;
+    padding: 25px 50px;
+    font-size: 16px;
+    transition: 0.3s;
+    z-index: 1;
+}
+
+.link i {
+    display: flex;
+    font-size: 26px;
+}
+
+.link::before {
+    background-color: white;
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 100%;
+    right: 0%;
+    z-index: -1;
+    transition: 0.3s;
+}
+
+.link:hover {
+    color: black;
+}
+
+.link:hover::before {
+    width: 100%;
+}
+

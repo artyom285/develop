@@ -1,0 +1,144 @@
+.Navbar {
+    color: white;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 2;
+}
+
+.navbar.active {
+    background: black;
+    height: 80px;
+    box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.4);
+}
+
+.navbar.active .drop-down {
+    box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.4);
+}
+
+.navbar {
+    background: linear-gradient(to bottom, #212121, transparent);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    height: 100px;
+    padding: 0px 120px;
+    transition: 0.3s;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    gap: 40px;
+}
+
+.navbar ul button {
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    background: none;
+    outline: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    gap: 15px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.navbar ul button i {
+    display: flex;
+    font-size: 23px;
+}
+
+.navbar ul li {
+    position: relative;
+}
+
+.drop-down {
+    background-color: black;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+    transform: translateY(0px);
+    opacity: 0;
+    transition: 0.3s;
+    gap: 12px;
+    padding: 25px 50px;
+    width: 200px;
+    bottom: -220px;
+}
+
+.drop-down.active {
+    pointer-events: all;
+    opacity: 1;
+    transform: translateY(10px);
+}
+
+.drop-down a {
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    position: relative;
+    font-size: 19.5px;
+    letter-spacing: 1px;
+}
+
+.navbar ul li .main-link {
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    position: relative;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.navbar ul li .main-link::before, nav ul button::before {
+    background-color: white;
+    content: "";
+    position: absolute;
+    transition: 0.3s;
+    width: 0%;
+    height: 1.5px;
+    bottom: -10px;
+}
+
+.navbar ul li .main-link:hover::before {
+    width: 100%;
+}
+
+.navbar ul li button:hover::before {
+    width: 100%;
+}
+
+.logo {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 22.5px;
+}
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav-icons i {
+    display: flex;
+    cursor: pointer;
+    font-size: 24px;
+    transition: 0.3s;
+}
+
+.nav-icons i:hover {
+    color: crimson;
+}
+

@@ -1,0 +1,27 @@
+.landing {
+  background: url("/public/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  min-height: 100vh;
+}
+
+.effect1 {
+  background: linear-gradient(to top, #f44336, #e91e63);
+  mix-blend-mode: darken;
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 500px;
+  transform: skewX(-200deg);
+}
+
+.content {
+  min-height: 100vh;
+}
+

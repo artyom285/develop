@@ -1,0 +1,71 @@
+.Footer {
+    background-color: black;
+    color: grey;
+    font-family: "Oswald", sans-serif;
+    padding: 70px 120px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+    width: 100%;
+}
+
+.footer-desc {
+    margin-top: 25px;
+    font-size: 17px;
+    line-height: 2em;
+    max-width: 400px;
+}
+
+.block-head {
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+}
+
+.footer-block-info {
+    margin-top: 25px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-block-info.s-n a {
+    color: grey;
+    width: fit-content;
+}
+
+.footer-block-info.s-n .info:not(:nth-child(1)) {
+    margin-top: 10px;
+}
+
+.info:not(:nth-child(1)) {
+    margin-top: 20px;
+}
+
+.info i {
+    color: white;
+    display: flex;
+    font-size: 22.5px;
+}
+
+.info span {
+    line-height: 1.8em;
+    font-size: 16px;
+}
+
+.copyright {
+    text-transform: uppercase;
+    color: grey;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 120px;
+}
+

@@ -1,0 +1,306 @@
+@media(max-width: 1300px) {
+    .services {
+        flex-wrap: wrap;
+    }
+
+    .HomeAbout {
+        flex-wrap: wrap-reverse;
+    }
+
+    .HomeAbout.about-2 {
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width: 1200px) {
+    .navbar ul {
+        display: none;
+    }
+
+    .sub-flex {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .sub-head {
+        margin-bottom: 30px;
+    }
+    
+    .input-fill {
+        grid-template-columns: initial;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 15px;
+        width: 100%;
+    }
+
+    .input-fill button {
+        justify-content: center;
+    }
+
+    .blogs {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 15px;
+    }
+
+    .blog:nth-child(3) {
+        display: none;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    .footer-block-info.s-n .info:not(:nth-child(1)) {
+        margin-top: 15px;
+    }
+}
+
+@media(max-width: 1100px) {
+    .team-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width: 1000px) {
+    .navbar, .Bottom {
+        padding: 0px 100px;
+    }
+
+    .HomeCenter {
+        margin: 150px 100px;
+    }
+
+    .HomeServices, .HomeAbout, .HomePlayer, .HomePortfolio, .HomeTeam, .HomeAbout3, .HomeBlog {
+        padding: 95px 100px;
+    }
+
+    .block-head2 {
+        font-size: 3em;
+    }
+
+    .showcase-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: initial;
+    }
+
+    .project {
+        overflow: hidden;
+        position: relative;
+        display: flex;
+        max-width: 500px;
+    }
+
+    .project img {
+        height: initial;
+        object-fit: initial;
+    }
+
+    .project.p-1, .project.p-4 {
+        grid-row: initial;
+    }
+    
+    .project.p-2 {
+        grid-column: initial;
+    }
+
+    .Footer {
+        padding: 70px 100px;
+    }
+}
+
+@media(max-width: 900px) {
+    .effect1 {
+        transform-origin: top;
+        right: 0%;
+    }
+}
+
+@media(max-width: 800px) {
+    .blogs {
+        grid-template-columns: 1fr;
+        grid-gap: 15px;
+    }
+
+    .blog:nth-child(3) {
+        display: initial;
+    }
+
+    .blog-img {
+        max-width: 1000px;
+    }
+
+    .blog-data {
+        padding: 30px;
+    }
+
+    .article {
+        margin: 25px 0px;
+    }
+}
+
+@media(max-width: 750px) {
+    .navbar, .Bottom {
+        padding: 0px 80px;
+    }
+
+    .HomeCenter {
+        margin: 150px 80px;
+    }
+
+    .landing::before {
+        width: 400px;
+    }
+
+    .heading {
+        font-size: 3.5em;
+    }
+
+    .HomeServices, .HomeAbout, .HomePlayer, .HomePortfolio, .HomeTeam, .HomeAbout3, .HomeBlog {
+        padding: 95px 80px;
+    }
+
+    .player-video i {
+        font-size: 50px;
+        padding: 25px;
+    }
+
+    .showcase-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .expert {
+        max-width: 500px;
+    }
+
+    .Footer {
+        padding: 70px 80px;
+    }
+}
+
+@media(max-width: 650px) {
+    .about3-links {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .about3-links a {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 550px) {
+    .navbar, .Bottom {
+        padding: 0px 50px;
+        height: 90px;
+    }
+
+    .HomeCenter {
+        margin: 150px 50px;
+    }
+
+    .HomeServices, .HomeAbout, .HomePlayer, .HomePortfolio, .HomeTeam, .HomeAbout3, .HomeBlog {
+        padding: 95px 50px;
+    }
+
+    .HomeAbout {
+        gap: 50px;
+    }
+
+    .about-head {
+        font-size: 2.5em;
+    }
+
+    .player-video i {
+        font-size: 40px;
+        padding: 20px;
+    }
+
+    .subs-head {
+        font-size: 3em;
+    }
+
+    .Footer {
+        padding: 70px 50px;
+    }
+
+    .copyright {
+        margin-top: 80px;
+    }
+}
+
+@media(max-width: 500px) {
+    .block-head2, .subs-head {
+        font-size: 2.5em;
+    }
+}
+
+@media(max-width: 400px) {
+    .navbar, .Bottom {
+        padding: 0px 40px;
+    }
+
+    .HomeCenter {
+        margin: 150px 40px;
+    }
+
+    .heading {
+        font-size: 3em;
+    }
+
+    .HomeServices, .HomeAbout, .HomePlayer, .HomePortfolio, .HomeTeam, .HomeAbout3, .HomeBlog {
+        padding: 95px 40px;
+    }
+
+    .about-link {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .about-head {
+        font-size: 2em;
+    }
+
+    .project-text {
+        padding: 35px;
+    }
+
+    .HomeStats {
+        padding: 95px 100px;
+    }
+
+    .num {
+        font-size: 3em;
+    }
+    
+    .s-text {
+        font-size: 18px;
+    }
+
+    .expert-data {
+        padding: 35px;
+    }
+
+    .Footer {
+        padding: 70px 40px;
+    }
+
+    .Sidebar {
+        width: 100%;
+    }
+
+    .close {
+        display: flex;
+    }
+}
+
+@media(max-width: 380px) {
+    .block-head2 {
+        font-size: 2.2em;
+    }
+}
+

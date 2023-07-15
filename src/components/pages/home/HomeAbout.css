@@ -1,0 +1,75 @@
+.HomeAbout {
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    gap: 80px;
+    padding: 95px 120px;
+}
+
+.about-sub-head {
+    color: grey;
+    font-size: 19px;
+}
+
+.about-head {
+    margin-top: 15px;
+    font-size: 3.5em;
+    line-height: 1.3em;
+}
+
+.about-desc {
+    color: grey;
+    text-transform: initial;
+    display: inline-block;
+    max-width: 500px;
+    margin: 30px 0px calc(30px + 1.3em) 0px;
+    line-height: 1.9em;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.about-link {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    position: relative;
+    gap: 15px;
+    padding: 25px 50px;
+    z-index: 1;
+}
+
+.about-link:hover::before {
+    width: 100%;
+}
+
+.about-link::before {
+    background-color: crimson;
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 100%;
+    top: 0%;
+    right: 0%;
+    z-index: -1;
+    transition: 0.3s;
+}
+
+.about-link i {
+    display: flex;
+    font-size: 26px;
+}
+
+.about-img {
+    display: flex;
+    max-width: 500px;
+    z-index: 1;
+}
+
+.about-img img {
+    width: 100%;
+}
+

@@ -1,0 +1,37 @@
+.HomeStats {
+    background-color: black;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 95px 120px;
+    gap: 60px;
+}
+
+.num {
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.s-text {
+    color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12.5px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.s-text i {
+    display: flex;
+    font-size: 26px;
+}
+
+.s-text span {
+    width: max-content;
+}
+
