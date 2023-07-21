@@ -1,16 +1,16 @@
 import React from 'react';
-import HomeCenter from './HomeCenter';
-import Bottom from '../../Bottom';
-import HomeServices from './HomeServices';
-import HomeAbout from './HomeAbout';
-import HomePlayer from './HomePlayer';
-import HomePortfolio from './HomePortfolio';
-import HomeStats from './HomeStats';
-import HomeAbout2 from './HomeAbout2';
-import HomeTeam from './HomeTeam';
-import HomeAbout3 from "./HomeAbout3";
-import HomeBlog from './HomeBlog';
-import Footer from '../../Footer';
+import HomeCenter from '../home/HomeCenter';
+import Bottom from '../Bottom';
+import HomeServices from '../home/HomeServices';
+import HomeAbout from '../home/HomeAbout';
+import HomePlayer from '../home/HomePlayer';
+import HomePortfolio from '../home/HomePortfolio';
+import HomeStats from '../home/HomeStats';
+import HomeAbout2 from '../home/HomeAbout2';
+import HomeTeam from '../home/HomeTeam';
+import HomeAbout3 from "../home/HomeAbout3";
+import HomeBlog from '../home/HomeBlog';
+import Footer from '../Footer';
 
 function Home() {
   return (
