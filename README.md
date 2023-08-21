@@ -10,3 +10,9 @@ Web design agency single-page website built by using ReactJS. The website includ
 * Flexbox;
 * CSS Grid;
 * Reusable components;
+
+## Links
+
+* [Final result](https://develop285.netlify.app/)
+* [Icons](https://react-icons.github.io/react-icons/)
+* [Media files resource](https://unsplash.com/)
